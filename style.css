@@ -1,0 +1,61 @@
+#pointermenu2{
+    margin: 0;
+    padding: 0;
+    }
+    
+    #pointermenu2 ul{
+    margin: 0;
+    margin-left: 10px; /*menu offset from left edge of window*/
+    float: left;
+    padding-left: 8px;
+    font: bold 13px Verdana;
+    background:  orange url(media/leftround2.gif) bottom left no-repeat; /*optional left round corner*/
+    }
+    
+    * html #pointermenu2 ul{ /*IE6 only rule. Decrease ul left margin and add 1em bottom margin*/
+    margin-bottom: 1em;
+    margin-left: 7px; /*menu offset from left edge of window in IE*/
+    }
+    
+    #pointermenu2 ul li{
+    display: inline;
+    }
+    
+    
+    #pointermenu2 ul li a{
+    float: left;
+    color: white;
+    font-weight: bold;
+    padding: 7px 9px 7px 5px;
+    text-decoration: none;
+    }
+    
+    #pointermenu2 ul li a:visited{
+    color: white;
+    }
+    
+    
+    #pointermenu2 ul li a:hover, #pointermenu2 ul li a#selected{ /*hover and selected link*/
+    color: lightyellow;
+    background: transparent url(media/pointer.gif) bottom center no-repeat;
+    }
+    
+    #pointermenu2 ul li a#rightcorner{
+    padding-right: 0;
+    padding-left: 2px;
+    background: url(media/rightround2.gif) bottom right no-repeat; /*optional right round corner*/
+    }
+    
+
+              body
+              {
+                  background:url("https://github.com/kattegatroleplay/kattegatroleplay.github.io/blob/master/00kattegat.gif?raw=true") 0 0 no-repeat fixed;
+      background-size:cover;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+              }
+
+
+
+
